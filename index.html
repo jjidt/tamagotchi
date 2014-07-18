@@ -10,16 +10,37 @@
 
   <body>
     <div class="container">
-
-      <form id="letters">
-        <div class="form-group">
-          <label for="input"></label>
-          <input id="input" type="text">
+      <div class ="row stats">
+        <div class ="col-md-4">
+          <div id="food-display">food</div>
         </div>
-        <button type="submit" id="btn">Click here!</button>
-      </form>
-      <p><span id="title"></span> </p>
-
+        <div class ="col-md-4">
+          <div id="sleep-display">sleep</div>
+        </div>
+        <div class ="col-md-4">
+          <div id="activity-display">activity</div>
+        </div>
+      </div>
+      <div class ="row numbers">
+        <div class ="col-md-4">
+          <div class = "display-circle" id="food-number"><p id="food"></p></div>
+        </div>
+        <div class ="col-md-4">
+          <div class = "display-circle" id="sleep-number"><p id="sleep"></p></div>
+        </div>
+        <div class ="col-md-4">
+          <div class = "display-circle" id="activity-number"><p id="activity"></p></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class = "col-md-4">
+        </div>
+        <div class = "col-md-4">
+          <form id ="user-type">
+            <input type="text" id="text-input" placeholder ="enter command" autocomplete="off">  </input>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>
